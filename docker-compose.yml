@@ -1,0 +1,11 @@
+version: '3.8'
+
+services:
+  react-js-ui:
+    container_name: epify-ui-container
+    image: react-js-epify
+    build: .
+    volumes:
+      - ./src:/app/src
+    ports:
+      - '3000:3000'

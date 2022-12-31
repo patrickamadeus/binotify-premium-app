@@ -1,0 +1,151 @@
+
+.page__title {
+    color: white;
+    display: flex;
+    position: sticky;
+    width: 100%;
+    background-color: rgb(18, 18, 18);
+    top:0;
+    font-size: 20pt;
+    font-weight: 700;
+    z-index: 99;
+}
+
+.subs__table {
+    position: relative;
+    width: 100%;
+    height: 90%;
+    margin-top: 10px;
+}
+
+.subs__table #table {
+    overflow-y: scroll;
+    height: 100%;
+}
+
+.table-borderless th {
+    background-color: black;
+    color: white;
+}
+
+.table-borderless td {
+    color: white;
+}
+
+.table_header {
+    font-family: 'Montserrat';
+    color: #D0A44D;
+}
+
+.table_header__element {
+    position: sticky !important;
+}
+
+.def_button {
+    width:50%;
+    max-width: 100px;
+    border-color: none;
+    height: 40px;
+    margin-left: 10px;
+    align-items: center;
+    background: radial-gradient(100% 887.81% at 31.02% 0%, #DBAF5A 0%, #AF8026 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+}
+
+#accept_button {
+    border-radius: 50px;
+    border-color: transparent;
+}
+
+#accept {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 18px;
+
+    background: black;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+#reject_button {
+    background: white;
+    border-radius: 50px;
+    border-color: transparent;
+}
+
+#reject {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 18px;
+
+    background: radial-gradient(81.67% 907.41% at 18.33% 36.11%, #C13B3B 0%, #AF8026 72.36%, #926B1F 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.css-78c6dr-MuiToolbar-root-MuiTablePagination-toolbar {
+    color: #B2B2B2;
+    min-height: 21px !important;
+    max-height: 21px !important;
+    padding: 0;
+    bottom: 0;
+    align-items: flex-end;
+}
+
+.css-pdct74-MuiTablePagination-selectLabel {
+    margin: 0;
+}
+
+.css-194a1fa-MuiSelect-select-MuiInputBase-input.css-194a1fa-MuiSelect-select-MuiInputBase-input.css-194a1fa-MuiSelect-select-MuiInputBase-input {
+    padding: 0;
+    margin: 0;
+}
+
+.css-levciy-MuiTablePagination-displayedRows {
+    padding: 0;
+    margin: 0;
+}
+
+.css-zylse7-MuiButtonBase-root-MuiIconButton-root{
+    color: #b2b2b2 !important;
+}
+
+.css-zylse7-MuiButtonBase-root-MuiIconButton-root.Mui-disabled {
+    color: #b2b2b2 !important;
+}
+
+.css-78c6dr-MuiToolbar-root-MuiTablePagination-toolbar {
+    overflow: hidden;
+    position: sticky;
+    bottom: 0;
+}
+
+.table_pagination {
+    position : fixed;
+    bottom: 20px;
+    right: 20px;
+    overflow: hidden;
+}
+
+/* MEDIA QUERIES */
+@media (max-width:1000px) {
+    .page__title{
+        font-size: 15pt;
+    }
+
+    .subs__table {
+        height: 85%;
+    }
+}
+
+@media (min-width:1000px) {
+    .subs__table {
+        position: relative;
+        width: 100%;
+    }
+}

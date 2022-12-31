@@ -1,0 +1,123 @@
+#add_song__button {
+    border-radius: 50px;
+    border-color: transparent;
+    position: absolute;
+    min-width: 120px;
+    top:0;
+    right: 0;
+    z-index: 99;
+    display: flex;
+    align-items: center;
+    padding: 4px 6px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+    border: none;
+    vertical-align: middle;
+    transition: box-shadow 0.4s ease;
+    margin-left: auto; 
+}
+
+#add__song {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 18px;
+
+    background: black;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.modal-content {
+    background-color: #1e1e1e;
+}
+
+#submit_button {
+    border-radius: 50px;
+    border-color: transparent;
+}
+
+#submit {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 18px;
+
+    background: black;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+#song__name::placeholder {
+    line-height: 30px;
+    color: #FFFFFF;
+}
+
+#edit_song__button {
+    border-radius: 50px;
+    border-color: transparent;
+    margin: 10px 0 0 0; 
+}
+
+#edit__song {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 18px;
+
+    background: black;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.song__line:hover {
+    background-color: #4A4A4A;
+}
+
+.song__line .edit_delete{
+    visibility: hidden;
+    display: none;
+}
+
+.song__line:hover .edit_delete{
+    visibility: visible;
+}
+
+.button_group {
+    transition: all .2s ease-in-out;
+}
+
+.button_group:hover {
+    transform: scale(1.2);
+}
+
+/* MEDIA QUERIES */
+@media (max-width:1000px) {
+    #add_song__button {
+        min-width: 0;
+        width:fit-content;
+        height:30px;
+        padding: 2px 4px;
+    }
+
+    #add__song {
+        font-size: 10px;
+    }
+
+    .play_button {
+        font-size: 25px !important;
+    }
+
+    .song_title__label {
+        font-size: 10px !important;
+    }
+
+    .song__title {
+        font-size: 15px !important;
+    }
+}

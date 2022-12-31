@@ -1,0 +1,11 @@
+body {
+    padding: 0px;
+    margin: 0px;
+  }
+  #root {
+    width: 100vw;
+    height: 100vh;
+    /* background: radial-gradient(100% 887.81% at 31.02% 0%, #DBAF5A 0%, #AF8026 100%) warning: gradient uses a rotation that is not supported by CSS and may not behave as expected; */
+    padding-top: 20px;
+}
+  

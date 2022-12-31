@@ -1,0 +1,57 @@
+.auth-form {
+    width: 100%;
+    max-width: 400px;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    background-color: #282828;
+    padding: 50px 40px;
+    border-radius: 5%;
+}
+
+.logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 25px;
+    /* border-bottom: #AE7228 solid 2px; */
+}
+
+#email, #password, #name, #confirmPassword, #username {
+    width: 100%;
+    font-family: "Montserrat";
+    height: 40px;
+    border-radius: 25px;
+    padding: 10px;
+    margin-bottom: 20px;
+    background-color: #d9d9d9;
+    color: black;
+}
+
+#sign_in__btn {
+    width: 100%;
+    border-radius: 25px;
+    border-color: transparent;
+    height: 40px;
+    padding: 10px;
+    margin-top: 20px;
+    text-align: center;
+    align-items: center;
+    font-weight: 600;
+    background: radial-gradient(100% 887.81% at 31.02% 0%, #DBAF5A 0%, #AF8026 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+}
+
+.linkOther {
+    color: white;
+    font-weight:600;
+    padding-left: 2pt;
+  }
+  
+  .linkOther:hover{
+    color: #DBAF5A;
+    transition: all 0.3s ease;
+  }
+
